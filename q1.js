@@ -35,10 +35,10 @@ $(document).ready(function() {
 
 
   map.on('load', function() {
-    map.addSource('paid', {
-        type: 'line',
-        url: '#lines.source.data.features.properties.color'
-    });
+    // map.addSource('paid', {
+    //     type: 'line',
+    //     url: '#lines.source.data.features.properties.color'
+    // });
     map.addLayer({
       'id': 'lines',
       'type': 'line',
@@ -192,7 +192,7 @@ $(document).ready(function() {
     });
   });
 
-  var toggleableLayerIds = [ 'paid', 'free' ];
+  // var toggleableLayerIds = [ 'paid', 'free' ];
 
 
 
