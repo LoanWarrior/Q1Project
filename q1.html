@@ -4,197 +4,144 @@
 <head>
   <meta charset="utf-8">
   <title>Mappin</title>
+
   <link rel="stylesheet" href="q1.css">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
   <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="q1.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.css' rel='stylesheet' />
+
   <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.min.js'></script>
   <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.css' type='text/css' />
+
+  <script type="text/javascript" src="q1.js" charset="utf-8"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
   <nav>
-  <div class="blue-grey darken-4 nav-wrapper">
-    <a href="#" class="brand-logo center">supermarket</a>
-    <ul id="nav-mobile" class="left hide-on-med-and-down">
-      <li><a href="q1.html">park</a></li>
-      <li><a href="badges.html">about</a></li>
-      <li><a href="collapsible.html">secret</a></li>
-    </ul>
-  </div>
-</nav>
-  <div class="container">
-    <div class="row">
-      <div class="col s1 m2 l2">left</div>
-      <div class="col s10 m8 l8">
+    <div class="blue-grey darken-4 nav-wrapper">
+      <a href="#" class="brand-logo center">supermarket</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="page2.html">about</a></li>
+        <li><a href="collapsible.html">secret</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-flex">
+    <!-- <div class="row"> -->
+      <!-- <div class="col s1 m2 l1"></div> -->
+      <!-- <div class="col s12 m12 l12"> -->
+        <!-- <nav id="menu"></nav> -->
         <div id='map'></div>
-        <div id='geocoder' class='geocoder'></div>
-        <pre id='info'></pre>
-
+        <!-- <pre id='info'></pre> -->
       </div>
-      <div class="col s1 m2 l2">right</div>
+      <!-- <div class="col s1 m2 l1"></div> -->
+    <!-- </div> -->
+  </div>
+  <!-- <div class="container">
+    <div class="row">
+      <div class="center col s12 m4 l4">
+        <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">why?</span>
+          <p>parking has never been easier. with our proven technology, you'll never be late again.</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="center col s12 m4 l4">
+
+        <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">what?</span>
+          <p>whatta ya mean what? its a map to see stuff</p>
+        </div>
+      </div>
+      </div>
+      <div class="center col s12 m4 l4">
+        <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">how?</span>
+          <p>with our team of monkeys constantly coloring in parking, it'll never run out.</p>
+        </div>
+      </div>
+      </div>
     </div>
+  </div> -->
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/blue.jpg"></div>
+  </div>
+
+  <div class="container">
+    <h2 class="blue-grey-text text-darken-4">
+      why?
+    </h2>
+    <p>
+      Ever been looking for parking for an hour and just decide to drive off a cliff instead? No more.
+      We developed what we call "monkeys" technology that allows us to map the entire world of parking!
+    </p>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/blackground.jpg"></div>
   </div>
   <div class="container">
-    <div class="row">
-      <div class="center col s4 m4 l4">button</div>
-      <div class="center col s4 m4 l4">button</div>
-      <div class="center col s4 m4 l4">button</div>
-    </div>
+    <h2 class="blue-grey-text text-darken-4">
+      how?
+    </h2>
+    <p>
+      How you ask? Well, it's a funny story. Once upon a time at band camp, a group of monkeys
+      were found in the wilderness. Nobody speaks monkey, but the band kids figured out somehow
+      that they love to color maps. Who knew! With this newfound technology in hand, we've accomplished
+      so much in so little time. With a team of 16 monkeys on the job, they were able to map out all the parking
+      on this site. Without them, our algorithm would be toast.
+    </p>
   </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/blue.jpg"></div>
+  </div>
+  <div class="container">
+    <h2 class="blue-grey-text text-darken-4">
+      what?
+    </h2>
+    <p>
+      What is right! Right indeed. Imagine you desparately are looking for parking,
+      and a monkey jumps out into the road. Why did this happen? How do you react?
+      The best thing to do is grab it and cage it up for proper use, but that's our job.
+      Your job is to find parking.
+      Note: no animals have been harmed by Edison Co. or any of its' affiliates.
+    </p>
+  </div>
+
+  <footer class="page-footer blue-grey darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">supermarket</h5>
+          <p class="grey-text text-lighten-4">no we dont do food</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text"></h5>
+          <!-- <ul>
+            <li><a class="white-text" href="page2.html">about</a></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      2018 Edison Inc. copyright
+      </div>
+    </div>
+  </footer>
 </body>
-<script>
-  mapboxgl.accessToken = 'pk.eyJ1IjoiZWRpc29udG9vbGUiLCJhIjoiY2pncXdnajM2MGg2ejJ4cGUzdW92bDNzcCJ9.YG4_JLO78bqmlpBcLHzuWw';
-  var map = new mapboxgl.Map({
-    container: 'map', // container id
-    style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
-    center: [-105.28348305225111, 40.013099904813714], // starting position [lng, lat]
-    zoom: 1 // starting zoom
-  });
-  map.addControl(new mapboxgl.GeolocateControl({
-    positionOptions: {
-      enableHighAccuracy: true
-    },
-    trackUserLocation: true
-  }));
-    var geocoder = new MapboxGeocoder({
-      accessToken: mapboxgl.accessToken
-  });
-  document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
-  map.on('load', function() {
-    map.addLayer({
-        'id': 'lines',
-        'type': 'line',
-        'source': {
-            'type': 'geojson',
-            'data': {
-                'type': 'FeatureCollection',
-                'features': [{
-                    'type': 'Feature',
-                    'properties': {
-                        'color': '#0433FF' // blue
-                    },
-                    'geometry': {
-                        'type': 'LineString',
-                        'coordinates': [
-                          [-105.28326258501241,40.015153801444825],
-                          [-105.28346440135468, 40.016092481410624],
-                          [-105.28078491700212, 40.01663948741316],
-                          [-105.27583517116472, 40.017658628511896]
-
-                        ]
-                    }
-                },{
-                    'type': 'Feature',
-                    'properties': {
-                        'color': '#0433FF' // blue
-                    },
-                    'geometry': {
-                        'type': 'LineString',
-                        'coordinates': [
-                          [-105.27597683690172,40.01872613925792],
-                          [-105.27216719155857, 40.01949388255309]
-
-
-                        ]
-                    }
-                },
-                 {
-                    'type': 'Feature',
-                    'properties': {
-                        'color': '#00FDFF' // light blue
-                    },
-                    'geometry': {
-                        'type': 'LineString',
-                        'coordinates': [
-                          [-105.28371010032444, 40.016032557560465],
-                          [-105.2859144330055, 40.01557317635502]
-                        ]
-                    }
-                }, {
-                    'type': 'Feature',
-                    'properties': {
-                        'color': '#00F900' // green
-                    },
-                    'geometry': {
-                        'type': 'LineString',
-                        'coordinates': [
-                          [-105.27872741561804, 40.01406576845193],
-                          [-105.28348305225111, 40.013099904813714],
-                          [-105.28427811645813, 40.012959380593344],
-                          [-105.28707103431526,40.01292815295338]
-
-                        ]
-                    }
-                },{
-                    'type': 'Feature',
-                    'properties': {
-                        'color': '#00FDFF' // light blue
-                    },
-                    'geometry': {
-                        'type': 'LineString',
-                        'coordinates':  [
-                          [-105.2842499479499, 40.01911915893464],
-                          [-105.27685060802743, 40.020674174337046]
-                        ]
-                    }
-                },{
-                    'type': 'Feature',
-                    'properties': {
-                        'color': '#00F900' // green
-                    },
-                    'geometry': {
-                        'type': 'LineString',
-                        'coordinates':  [
-                          [-105.28321936397032, 40.01251408094018],
-                          [-105.28297767585381, 40.011936971134276],
-                          [-105.27837480134144, 40.01285715039489],
-                          [-105.28418703230207, 40.011659304504406],
-                          [-105.28721432653008, 40.011664744848825],
-                          [-105.28718589263214, 40.01289518856575]
-                        ]
-                    }
-                },{
-                    'type': 'Feature',
-                    'properties': {
-                        'color': '#00FDFF' // light blue
-                    },
-                    'geometry': {
-                        'type': 'LineString',
-                        'coordinates': [
-                          [-105.28531789555299,40.017880709836334],
-                          [-105.28172208547981,40.01863961056429]
-                        ]
-                    }
-                }]
-            }
-        },
-        'paint': {
-            'line-width': 3,
-            // Use a get expression (https://www.mapbox.com/mapbox-gl-js/style-spec/#expressions-get)
-            // to set the line-color to a feature property value.
-            'line-color': ['get', 'color']
-        }
-    });
-});
-  map.on('mousemove', function (e) {
-      document.getElementById('info').innerHTML =
-          // e.point is the x, y coordinates of the mousemove event relative
-          // to the top-left corner of the map
-          JSON.stringify(e.point) + '<br />' +
-          // e.lngLat is the longitude, latitude geographical position of the event
-          JSON.stringify(e.lngLat);
-  });
-  map.addControl(new mapboxgl.FullscreenControl());
-
-</script>
 
 </html>
