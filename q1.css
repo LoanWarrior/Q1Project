@@ -1,7 +1,7 @@
 body {
   margin:0;
   padding:0;
-  background-color: #919191;
+  /* background-color: #bdbdbd grey lighten-1; */
   /* background-image: 'gray.png'; */
   }
 
@@ -27,7 +27,7 @@ body {
     background: #fff;
 }
 .parallax-container{
-  height:200px;
+  height:10px;
 }
 .parallax img { width: 100%; }
 #menu {
@@ -70,4 +70,26 @@ body {
 
 #menu a.active:hover {
     background: #3074a4;
+}
+.container{
+  /* height:100px; */
+}
+.container p{
+  padding-bottom:30px;
+}
+.paid{
+  border-style:solid;
+  border-color:#0433FF;
+}
+.free{
+  border-style:solid;
+  border-color:#00F900;
+}
+.none{
+  border-style:solid;
+  border-color:#FF2600;
+}
+.timed{
+  border-style:solid;
+  border-color:#00FDFF;
 }

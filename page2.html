@@ -12,19 +12,25 @@
   <title>about me</title>
 </head>
 
-<body>
+<body class="#bdbdbd grey lighten-1">
   <nav>
     <div class="blue-grey darken-4 nav-wrapper">
-      <a href="q1.html" class="brand-logo center">supermarket</a>
+      <a href="index.html" class="brand-logo center">Pearl Park</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="page2.html">about</a></li>
-        <li><a href="collapsible.html">secret</a></li>
+        <li><a href="page2.html">About</a></li>
+        <li><a href="secret.html">Secret</a></li>
       </ul>
     </div>
   </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="page2.html">About</a></li>
+    <li><a href="secret.html">Secret</a></li>
+  </ul>
   <div class="row">
     <div class="parallax-container">
-      <div class="parallax"><img src="images/jerry.jpg"></div>
+      <div class="parallax"><img src="images/ricknjerry.png"></div>
     </div>
     <h1 class="center blue-grey-text text-darken-4">About</h1>
     <p class="center">
@@ -35,17 +41,17 @@
     </p>
     <div class="container">
       <div class="row">
-        <div class="center col l4">
+        <div class="center col s4">
           <a href="https://github.com/LoanWarrior">
-          <img src="GitHub-Mark/PNG/GitHub-Mark-120px-plus.png" height="25%" width ="25%"/>
+          <img src="images/GitHub-Mark-120px-plus.png" height="25%" width ="25%"/>
         </a>
         </div>
-        <div class="center col l4">
+        <div class="center col s4">
           <a href="https://www.linkedin.com/in/edison-toole-38902694/">
-            <img src="LinkedIn [in] for Screen/2-Color/In-2C-128px-R.png" height="25%" width ="25%"/>
+            <img src="images/In-2C-128px-R.png" height="25%" width ="25%"/>
           </a>
         </div>
-        <div class="center col l4">
+        <div class="center col s4">
           <a href="https://www.instagram.com/mynameisedison/">
             <img src="images/insta.png" height="22%" width ="22%"/>
           </a>
@@ -57,30 +63,31 @@
 
   <h1 class="center blue-grey-text text-darken-4">send me stuff</h1>
   <div class="row">
-    <form class="col s12" >
+    <form class="col s12" action="https://formspree.io/edisontoole2@gmail.com"
+      method="POST">
       <div class="row">
         <div class="input-field col s6">
-          <input id="first_name" type="text" class="validate">
+          <input id="first_name" type="text" class="validate" name="firstName">
           <label for="first_name" class="black-text">First Name</label>
         </div>
         <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
+          <input id="last_name" type="text" class="validate" name="lastName">
           <label for="last_name" class="black-text">Last Name</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
+          <input id="email" type="email" class="validate"  name="email">
           <label for="email" class="black-text">Email</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <input id="message" type="text" class="validate">
+          <input id="message" type="text" class="validate" name="message">
           <label for="message" class="black-text">Message</label>
         </div>
       </div>
-      <button class="btn waves-effect waves-dark blue-grey darken-3" type="submit" name="action">Submit
+      <button class="btn waves-effect waves-dark blue-grey darken-3" type="submit">Submit
           <i class="material-icons right">send</i>
         </button>
     </form>
@@ -90,16 +97,17 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">supermarket</h5>
-          <p class="grey-text text-lighten-4">no we dont do food</p>
+          <h5 class="white-text">Pearl Park</h5>
+          <p class="grey-text text-lighten-4">Note: no animals have been harmed by Edison Co. or any of its' affiliates.</p>
 
 
         </div>
         <div class="col l3 s12">
           <h5 class="white-text"></h5>
-          <!-- <ul>
-            <li><a class="white-text" href="page2.html">about</a></li>
-          </ul> -->
+          <ul>
+            <li><a class="white-text" href="page2.html">About</a></li>
+            <li><a class="white-text" href="secret.html">Secret</a></li>
+          </ul>
         </div>
       </div>
     </div>
