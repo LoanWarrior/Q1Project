@@ -19,7 +19,7 @@ $(document).ready(function() {
     },
     trackUserLocation: true
   }));
-  map.addControl(new mapboxgl.FullscreenControl());
+  // map.addControl(new mapboxgl.FullscreenControl());
 
 
   // document.getElementById('info').appendChild(geocoder.onAdd('map'));
