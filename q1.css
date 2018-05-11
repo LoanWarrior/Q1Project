@@ -4,13 +4,15 @@ body {
   /* background-color: #bdbdbd grey lighten-1; */
   /* background-image: 'gray.png'; */
   }
-
+  .parallax-container{
+    /* height: */
+  }
 #map {top:0; bottom:0; width:100%; height:500px }
 .geocoder {
     z-index:1;
     width:50%;
     left:50%;
-    /* margin-left:25%; */
+    margin-left:25%;
     top:20px;
 }
 .mapboxgl-ctrl-geocoder { min-width:100%; }
@@ -26,10 +28,6 @@ body {
     color: #222;
     background: #fff;
 }
-.parallax-container{
-  height:10px;
-}
-.parallax img { width: 100%; }
 #menu {
     background: #fff;
     position: absolute;
@@ -71,9 +69,9 @@ body {
 #menu a.active:hover {
     background: #3074a4;
 }
-.container{
-  /* height:100px; */
-}
+
+.parallax img { width: 100%; }
+
 .container p{
   padding-bottom:30px;
 }
